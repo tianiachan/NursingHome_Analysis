@@ -1,53 +1,53 @@
-state,area (sq. mi)
-Alabama,52423
-Alaska,656425
-Arizona,114006
-Arkansas,53182
-California,163707
-Colorado,104100
-Connecticut,5544
-Delaware,1954
-Florida,65758
-Georgia,59441
-Hawaii,10932
-Idaho,83574
-Illinois,57918
-Indiana,36420
-Iowa,56276
-Kansas,82282
-Kentucky,40411
-Louisiana,51843
-Maine,35387
-Maryland,12407
-Massachusetts,10555
-Michigan,96810
-Minnesota,86943
-Mississippi,48434
-Missouri,69709
-Montana,147046
-Nebraska,77358
-Nevada,110567
-New Hampshire,9351
-New Jersey,8722
-New Mexico,121593
-New York,54475
-North Carolina,53821
-North Dakota,70704
-Ohio,44828
-Oklahoma,69903
-Oregon,98386
-Pennsylvania,46058
-Rhode Island,1545
-South Carolina,32007
-South Dakota,77121
-Tennessee,42146
-Texas,268601
-Utah,84904
-Vermont,9615
-Virginia,42769
-Washington,71303
-West Virginia,24231
-Wisconsin,65503
-Wyoming,97818
-District of Columbia,68
-Puerto Rico,3515
+Abbr,state,area (sq. mi)
+AL,Alabama,52423
+AK,Alaska,656425
+AZ,Arizona,114006
+AR,Arkansas,53182
+CA,California,163707
+CO,Colorado,104100
+CT,Connecticut,5544
+DE,Delaware,1954
+DC,Florida,65758
+FL,Georgia,59441
+GA,Hawaii,10932
+HI,Idaho,83574
+ID,Illinois,57918
+IL,Indiana,36420
+IN,Iowa,56276
+IA,Kansas,82282
+KS,Kentucky,40411
+KY,Louisiana,51843
+LA,Maine,35387
+ME,Maryland,12407
+MD,Massachusetts,10555
+MA,Michigan,96810
+MI,Minnesota,86943
+MN,Mississippi,48434
+MS,Missouri,69709
+MO,Montana,147046
+MT,Nebraska,77358
+NE,Nevada,110567
+NV,New Hampshire,9351
+NH,New Jersey,8722
+NJ,New Mexico,121593
+NM,New York,54475
+NY,North Carolina,53821
+NC,North Dakota,70704
+ND,Ohio,44828
+OH,Oklahoma,69903
+OK,Oregon,98386
+OR,Pennsylvania,46058
+PA,Rhode Island,1545
+RI,South Carolina,32007
+SC,South Dakota,77121
+SD,Tennessee,42146
+TN,Texas,268601
+TX,Utah,84904
+UT,Vermont,9615
+VT,Virginia,42769
+VA,Washington,71303
+WA,West Virginia,24231
+WV,Wisconsin,65503
+WI,Wyoming,97818
+WY,District of Columbia,68
+,Puerto Rico,3515
