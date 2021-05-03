@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -27,96 +27,99 @@
           <DefaultAnnotationText>NH_ProviderInfo_Mar2021.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Federal Provider Number" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Address" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider City" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider State" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Zip Code" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Phone Number" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider SSA County Code" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider County Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Ownership Type" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Certified Beds" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Average Number of Residents per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Average Number of Residents per Day Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Type" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Resides in Hospital" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Legal Business Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Date First Approved to Provide Medicare and Medicaid Services" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Continuing Care Retirement Community" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Special Focus Status" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Abuse Icon" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Most Recent Health Inspection More Than 2 Years Ago" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Provider Changed Ownership in Last 12 Months" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="With a Resident and Family Council" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Automatic Sprinkler Systems in All Required Areas" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Overall Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Overall Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Health Inspection Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Health Inspection Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Long-Stay QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Long-Stay QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Short-Stay QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Short-Stay QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Staffing Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Staffing Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="RN Staffing Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="RN Staffing Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported Staffing Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Physical Therapist Staffing Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported Licensed Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Reported Physical Therapist Staffing Hours per Resident Per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Case-Mix Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Case-Mix LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Case-Mix RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Case-Mix Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Adjusted Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Adjusted LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Adjusted RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Adjusted Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Standard Survey Health Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 1 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Standard Health Survey Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 2 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Standard Health Survey Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Rating Cycle 3 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Total Weighted Health Survey Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Facility Reported Incidents" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Substantiated Complaints" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Citations from Infection Control Inspections" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Fines" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Total Amount of Fines in Dollars" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Number of Payment Denials" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Total Number of Penalties" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Location" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
-            <Field name="Processing Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Federal Provider Number" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Address" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider City" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider State" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Zip Code" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Phone Number" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider SSA County Code" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider County Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Ownership Type" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Certified Beds" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Average Number of Residents per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Average Number of Residents per Day Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Type" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Resides in Hospital" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Legal Business Name" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Date First Approved to Provide Medicare and Medicaid Services" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Continuing Care Retirement Community" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Special Focus Status" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Abuse Icon" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Most Recent Health Inspection More Than 2 Years Ago" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Provider Changed Ownership in Last 12 Months" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="With a Resident and Family Council" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Automatic Sprinkler Systems in All Required Areas" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Overall Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Overall Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Health Inspection Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Health Inspection Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Long-Stay QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Long-Stay QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Short-Stay QM Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Short-Stay QM Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Staffing Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Staffing Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="RN Staffing Rating" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="RN Staffing Rating Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported Staffing Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Physical Therapist Staffing Footnote" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported Licensed Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Reported Physical Therapist Staffing Hours per Resident Per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Case-Mix Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Case-Mix LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Case-Mix RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Case-Mix Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Adjusted Nurse Aide Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Adjusted LPN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Adjusted RN Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Adjusted Total Nurse Staffing Hours per Resident per Day" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Standard Survey Health Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 1 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Standard Health Survey Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 2 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Standard Health Survey Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Total Number of Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Number of Standard Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Number of Complaint Health Deficiencies" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Health Deficiency Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Number of Health Revisits" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Health Revisit Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Rating Cycle 3 Total Health Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Total Weighted Health Survey Score" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Facility Reported Incidents" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Substantiated Complaints" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Citations from Infection Control Inspections" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Fines" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Total Amount of Fines in Dollars" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Number of Payment Denials" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Total Number of Penalties" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Location" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
+            <Field name="Processing Date" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NH_ProviderInfo_Mar2021.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -128,7 +131,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_4628_52b56649275d4e828b7d9ed3a308ef7a_\Engine_13324_4ccb57eff2444b38bd6e0d968aca7bfa_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_14692_9e21c35792d744f6938638621a1cca24_\Engine_14636_6edaf84b96f04b95a796e5d796fe628c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -248,11 +251,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="294" y="126" />
+        <Position x="330" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\AdvancedTableauExercise\Data\NHMarch2021stats.csv</File>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\NHMar2021stats.csv</File>
           <Passwords />
           <FormatSpecificOptions>
             <LineEndStyle>CRLF</LineEndStyle>
@@ -267,11 +270,42 @@
         <Annotation DisplayMode="0">
           <Name />
           <AnnotationText>output to csv</AnnotationText>
-          <DefaultAnnotationText>NHMarch2021stats.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>NHMar2021stats.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_14692_9e21c35792d744f6938638621a1cca24_\Engine_14636_7b445caac24b4e919dd77ce9f949105e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -286,6 +320,10 @@
     <Connection>
       <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
