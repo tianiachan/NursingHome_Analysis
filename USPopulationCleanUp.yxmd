@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>us population</AnnotationText>
+          <DefaultAnnotationText>nst-est2019-01.xlsx
+Query=`NST01$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="table with row headers in column A and column headers in rows 3 through 4. (leading dots indicate sub-parts)" size="646" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="V_String" />
+            <Field name="F2" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="V_String" />
+            <Field name="F3" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="V_String" />
+            <Field name="F4" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F5" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F6" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F7" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F8" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F9" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F10" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F11" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F12" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+            <Field name="F13" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_4580_1f2d3d0253fb41bfa803ebaa241a1bf0_\Engine_14660_8298dfc32290463a93f38ddf2c914686_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="246" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2-61</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>unselect the headers</AnnotationText>
+          <DefaultAnnotationText>unselect the headers</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="366" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">1-52, 54</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>USPopulationCleanUp</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
