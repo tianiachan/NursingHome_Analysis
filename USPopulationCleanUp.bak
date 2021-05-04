@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="138" />
+        <Position x="138" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -16,11 +16,14 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <AnnotationText>population file to be cleaned</AnnotationText>
+          <AnnotationText>us population</AnnotationText>
           <DefaultAnnotationText>nst-est2019-01.xlsx
 Query=`NST01$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="table with row headers in column A and column headers in rows 3 through 4. (leading dots indicate sub-parts)" size="646" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\nst-est2019-01.xlsx|||`NST01$`" type="V_String" />
@@ -43,11 +46,11 @@ Query=`NST01$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="162" y="54" />
+        <Position x="246" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_4572_cbb34bce7a5144bab6df9c3a652399b8_\Engine_11492_1c168799a41c46a998bb5beb05e46ddf_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_4580_1f2d3d0253fb41bfa803ebaa241a1bf0_\Engine_14660_8298dfc32290463a93f38ddf2c914686_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -71,7 +74,7 @@ Query=`NST01$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings>
-        <Position x="174" y="138" />
+        <Position x="246" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -79,125 +82,34 @@ Query=`NST01$`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <AnnotationText>get rid of unecessary rows at beginning of file</AnnotationText>
+          <AnnotationText>unselect the headers</AnnotationText>
           <DefaultAnnotationText>unselect the headers</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings Macro="SelectRecords.yxmc" />
     </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="294" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Expression>IsNull([F2]) AND IsNull([F3]) AND IsNull([F4])</Expression>
-          <Mode>Custom</Mode>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <AnnotationText><![CDATA[get rid of null row ]]></AnnotationText>
-          <DefaultAnnotationText>IsNull([F2]) AND IsNull([F3]) AND IsNull([F4])</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="402" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="table with row headers in column A and column headers in rows 3 through 4. (leading dots indicate sub-parts)" selected="True" rename="State" />
-            <SelectField field="F2" selected="True" rename="Census" />
-            <SelectField field="F3" selected="True" rename="Estimates Base" />
-            <SelectField field="F4" selected="True" rename="2010" />
-            <SelectField field="F5" selected="True" rename="2011" />
-            <SelectField field="F6" selected="True" rename="2012" />
-            <SelectField field="F7" selected="True" rename="2013" />
-            <SelectField field="F8" selected="True" rename="2014" />
-            <SelectField field="F9" selected="True" rename="2015" />
-            <SelectField field="F10" selected="True" rename="2016" />
-            <SelectField field="F11" selected="True" rename="2017" />
-            <SelectField field="F12" selected="True" rename="2018" />
-            <SelectField field="F13" selected="True" rename="2019" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <AnnotationText>rename columns</AnnotationText>
-          <DefaultAnnotationText>rename columns</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="654" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\NursingHome_Analysis\Data\USPopulation.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-            <WriteBOM>True</WriteBOM>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>USPopulation.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
-    <Node ToolID="11">
+    <Node ToolID="4">
       <GuiSettings>
-        <Position x="510" y="150" />
+        <Position x="366" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="Check Box (135)">False</Value>
-          <Value name="Check Box (136)">False</Value>
-          <Value name="List Box (11)">"State"</Value>
-          <Value name="Check Box (84)">True</Value>
-          <Value name="Check Box (117)">True</Value>
-          <Value name="Check Box (15)">False</Value>
-          <Value name="Check Box (109)">False</Value>
-          <Value name="Check Box (122)">False</Value>
-          <Value name="Check Box (53)">False</Value>
-          <Value name="Check Box (58)">False</Value>
-          <Value name="Check Box (70)">True</Value>
-          <Value name="Check Box (77)">False</Value>
-          <Value name="Drop Down (81)">upper</Value>
+          <Value name="Ranges">1-52, 54</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <AnnotationText>get rid of the . in front of states</AnnotationText>
-          <DefaultAnnotationText>get rid of the . in front of states</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
         <Dependencies>
           <Implicit />
         </Dependencies>
       </Properties>
-      <EngineSettings Macro="Cleanse.yxmc" />
+      <EngineSettings Macro="SelectRecords.yxmc" />
     </Node>
   </Nodes>
   <Connections>
@@ -211,19 +123,7 @@ Query=`NST01$`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="5" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="5" Connection="False" />
-      <Destination ToolID="9" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="11" Connection="Input2" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="11" Connection="Output26" />
-      <Destination ToolID="10" Connection="Input" />
+      <Destination ToolID="4" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
